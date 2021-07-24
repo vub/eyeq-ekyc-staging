@@ -1,1 +1,0 @@
-# eyeq-ekyc-staging

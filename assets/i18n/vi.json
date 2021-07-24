@@ -1,0 +1,128 @@
+{
+  "general": {
+    "progress": "Tiến trình",
+    "freeOpening": "Mở tài khoản chứng khoán 100% trực tuyến, miễn phí",
+    "applicantInformation": "Thông Tin Chủ Tài Khoản",
+    "servicesRegistering": "Đăng Ký Dịch Vụ",
+    "authenticationAndSignContract": "Xác Thực Và Ký Hợp Đồng",
+    "OPTConfirmation": "Xác Minh OTP",
+    "back": "Trở lại",
+    "next": "Tiếp tục",
+    "note": "Lưu ý:",
+    "dateFormat": "DD/MM/YYYY",
+    "male": "Nam",
+    "female": "Nữ",
+    "cmnd": "Chứng minh nhân dân",
+    "cccd": "Căn cước công dân"
+  },
+  "mobileStepName": {
+    "applicantInformation": "Phần 1: Thông Tin Chủ Tài Khoản",
+    "servicesRegistration": "Phần 2: Đăng ký dịch vụ",
+    "uploadIdentification": "Phần 3: Xác thực và ký hợp đồng",
+    "personalInformation": "Phần 3: Xác thực và ký hợp đồng",
+    "faceRecognition": "Phần 3: Xác thực và ký hợp đồng",
+    "contractSign": "Phần 3: Xác thực và ký hợp đồng",
+    "OTPAuthentication": "Phần 4: Xác minh OTP"
+  },
+  "applicantInfo": {
+    "phoneNumber": "Nhập số điện thoại",
+    "email": "Nhập Email",
+    "registerBankAccount": "Đăng ký tài khoản ngân hàng nhận chuyển khoản",
+    "PickBank": "Chọn ngân hàng",
+    "PickBranch": "Chi nhánh",
+    "BankAccountNumber": "Nhập số tài khoản",
+    "mainAccountNote": "Tài khoản ngân hàng phải là tài khoản chính chủ."
+  },
+  "serviceRegistering": {
+    "accountType": "Chọn loại tài khoản chứng khoán",
+    "services": "Đăng ký dịch vụ tiện ích",
+    "cashAccount": "Tài khoản thường",
+    "marginAccount": "Ký quỹ",
+    "bond": "Trái phiếu",
+    "counterTransaction": "Giao dịch tại quầy giao dịch",
+    "remoteTransaction": "Giao dịch trực tuyến từ xa",
+    "callCenterTransaction": "Giao dịch qua tổng đài",
+    "internetTransaction": "Giao dịch qua Internet",
+    "matchingSMSNotification": "Nhận tin nhắn SMS kết quả khớp lệnh liên tục",
+    "endDaySMSNotification": "Nhận tin nhắn SMS thông báo kết quả giao dịch cuối ngày",
+    "endDayEmailNotification": "Nhận email thông báo kết quả giao dịch cuối ngày",
+    "endMonthEmailNotification": "Nhận email sao kê tài khoản cuối tháng",
+    "moneyAdvanceService": "Dịch vụ ứng trước tiền bán tự động"
+  },
+  "uploadIdentification": {
+    "uploadPersonalDocument": "Chụp hoặc Tải Lên giấy tờ xác thực cá nhân - chấp nhận Chứng Minh Nhân Dân/ Căn Cước Công Dân",
+    "before": "Mặt Trước",
+    "after": "Mặt Sau"
+  },
+  "personalInformation": {
+    "personalInformation": "Thông tin cá nhân",
+    "personalIdentify": "Thông tin giấy tờ tuỳ thân",
+    "address": "Địa chỉ thường trú",
+    "contact": "Địa chỉ liên lạc",
+    "fullName": "Họ và Tên",
+    "gender": "Giới tính",
+    "birthDate": "Ngày sinh",
+    "nationality": "Quốc tịch",
+    "identityType": "Loại giấy tờ",
+    "identityNumber": "Số giấy tờ",
+    "identityIssuedDate": "Ngày cấp",
+    "identityIssuedPlace": "Nơi cấp",
+    "identityExpiredDate": "Ngày hết hạn",
+    "residenceCity": "Thành phố/ Tỉnh",
+    "residenceDistrict": "Quận/ Huyện",
+    "residenceWard": "Phường/ Xã/ Thị trấn",
+    "residenceAddress": "Số nhà, tên đường",
+    "contactCity": "Thành phố/ Tỉnh",
+    "contactDistrict": "Quận/ Huyện",
+    "contactWard": "Phường/ Xã/ Thị trấn",
+    "contactAddress": "Số nhà, tên đường",
+    "isContactSamePermanent": "Địa chỉ liên lạc giống với địa chỉ thường trú"
+  },
+  "faceRecognition": {
+    "faceRecognition": "Xác thực gương mặt",
+    "instruction": "Đặt gương mặt của bạn gần camera, lần lượt:",
+    "then": "rồi sau đó lần lượt",
+    "0": "ngước mặt lên trên",
+    "1": "quay mặt sang phải",
+    "2": "cúi mặt xuống dưới",
+    "3": "quay mặt sang trái",
+    "start": "Bắt đầu xác thực gương mặt",
+    "stop": "Hoàn tất xác thực gương mặt",
+    "recap": "Làm lại xác thực gương mặt"
+  },
+  "contractSign": {
+    "downloadContract": "Xem hợp đồng mở tài khoản",
+    "signContract": "Ký xác nhận",
+    "viewContract": "Xem hợp đồng",
+    "printContract": "In hợp đồng",
+    "directSign": "Ký trực tiếp",
+    "takePhoto": "Chụp hình",
+    "resign": "Ký lại",
+    "quote": "Bằng việc ký vào hợp đồng này, bạn xác nhận đã đọc, nắm rõ và đồng ý với các điều khoản."
+  },
+  "OTPAuthentication": {
+    "inputOTP": "Vui lòng nhập mã OTP được gửi đến số điện thoại mà bạn đăng ký",
+    "requestOPTtoEmail": "hoặc yêu cầu gửi mã OTP tới email",
+    "OPTexpiredTime": "Mã OTP hết hiệu lực sau",
+    "second": "giây",
+    "auth": "Xác thực",
+    "notReceive": "Không nhận được mã OTP? Vui lòng chọn",
+    "resend": "gửi lại OTP",
+    "success": "Thành công!"
+  },
+  "form": {
+    "errors": {
+      "required": "Trường thông tin cần thiết",
+      "email": "Định dạng email chưa đúng",
+      "emailExist": "Email đã tồn tại",
+      "atLeastOne": "Đăng kí ít nhất một dịch vụ",
+      "minlength": "Chưa đạt số lượng kí tự tối thiểu",
+      "maxlength": "Vượt quá số lượng kí tự tối đa"
+    },
+    "apiErrors": {
+      "bankId": "Chi nhánh ngân hàng không trùng khớp",
+      "bankAccountNumber": "Số lượng kí tự tài khoản chưa chính xác",
+      "default": "Có lỗi trong quá trình lưu dữ liệu."
+    }
+  }
+}
