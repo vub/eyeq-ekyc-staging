@@ -16,22 +16,35 @@
     "cccd": "Căn cước công dân"
   },
   "mobileStepName": {
-    "applicantInformation": "Phần 1: Thông Tin Chủ Tài Khoản",
-    "servicesRegistration": "Phần 2: Đăng ký dịch vụ",
-    "uploadIdentification": "Phần 3: Xác thực và ký hợp đồng",
-    "personalInformation": "Phần 3: Xác thực và ký hợp đồng",
-    "faceRecognition": "Phần 3: Xác thực và ký hợp đồng",
-    "contractSign": "Phần 3: Xác thực và ký hợp đồng",
-    "OTPAuthentication": "Phần 4: Xác minh OTP"
+    "applicant-information": "Phần 1: Thông Tin Chủ Tài Khoản",
+    "services-registration": "Phần 2: Đăng ký dịch vụ",
+    "upload-identification": "Phần 3: Xác thực và ký hợp đồng",
+    "personal-information": "Phần 3: Xác thực và ký hợp đồng",
+    "face-recognize": "Phần 3: Xác thực và ký hợp đồng",
+    "contract-signing": "Phần 3: Xác thực và ký hợp đồng",
+    "otp-authentication": "Phần 4: Xác minh OTP"
   },
   "applicantInfo": {
     "phoneNumber": "Nhập số điện thoại",
+    "phoneNumberPlaceholder": "Số điện thoại",
     "email": "Nhập Email",
-    "registerBankAccount": "Đăng ký tài khoản ngân hàng nhận chuyển khoản",
-    "PickBank": "Chọn ngân hàng",
-    "PickBranch": "Chi nhánh",
-    "BankAccountNumber": "Nhập số tài khoản",
-    "mainAccountNote": "Tài khoản ngân hàng phải là tài khoản chính chủ."
+    "emailPlaceholder": "Email",
+    "registerBankAccount": "Đăng ký tài khoản ngân hàng",
+    "pickBank": "Chọn ngân hàng",
+    "pickBankPlaceholder": "Ngân hàng",
+    "pickBranch": "Tỉnh (TP)",
+    "pickBranchPlaceholder": "Tỉnh (TP)",
+    "bankAccountNumber": "Nhập số tài khoản",
+    "bankAccountNumberPlaceholder": "Số tài khoản",
+    "mainAccountNote": "Tài khoản ngân hàng phải chính chủ.",
+    "accountManagementModel": "Mô hình quản lý tài khoản",
+    "noServiceEmployee": "Không có nhân viên chăm sóc tài khoản",
+    "yesServiceEmployee": "Có nhân viên chăm sóc tài khoản",
+    "referencePerson": "Người giới thiệu tài khoản (nếu có)",
+    "referenceName": "Họ và tên",
+    "referenceNamePlaceholder": "Họ và tên",
+    "referencePhoneNumber": "Số điện thoại",
+    "referencePhoneNumberPlaceholder": "Số điện thoại"
   },
   "serviceRegistering": {
     "accountType": "Chọn loại tài khoản chứng khoán",
@@ -51,8 +64,8 @@
   },
   "uploadIdentification": {
     "uploadPersonalDocument": "Chụp hoặc Tải Lên giấy tờ xác thực cá nhân - chấp nhận Chứng Minh Nhân Dân/ Căn Cước Công Dân",
-    "before": "Mặt Trước",
-    "after": "Mặt Sau"
+    "before": "CMND/CCCD Mặt Trước",
+    "after": "CMND/CCCD Mặt Sau"
   },
   "personalInformation": {
     "personalInformation": "Thông tin cá nhân",
@@ -87,8 +100,8 @@
     "2": "cúi mặt xuống dưới",
     "3": "quay mặt sang trái",
     "start": "Bắt đầu xác thực gương mặt",
-    "stop": "Hoàn tất xác thực gương mặt",
-    "recap": "Làm lại xác thực gương mặt"
+    "recording": "Xoay mặt theo hướng dẫn...",
+    "recap": "Thử lại xác thực gương mặt"
   },
   "contractSign": {
     "downloadContract": "Xem hợp đồng mở tài khoản",
@@ -98,6 +111,7 @@
     "directSign": "Ký trực tiếp",
     "takePhoto": "Chụp hình",
     "resign": "Ký lại",
+    "uploadSign": "Xác nhận chữ ký",
     "quote": "Bằng việc ký vào hợp đồng này, bạn xác nhận đã đọc, nắm rõ và đồng ý với các điều khoản."
   },
   "OTPAuthentication": {
@@ -108,21 +122,31 @@
     "auth": "Xác thực",
     "notReceive": "Không nhận được mã OTP? Vui lòng chọn",
     "resend": "gửi lại OTP",
-    "success": "Thành công!"
+    "success": "Thành công!",
+    "requestingOTP": "Đang yêu cầu OTP...",
+    "timeout": "OTP hết hạn. Xin vui lòng thử lại.",
+    "success1": "Tài khoản của bạn đã tạo thành công!",
+    "success2": "Tài khoản của bạn đang được xét duyệt"
   },
   "form": {
     "errors": {
       "required": "Trường thông tin cần thiết",
       "email": "Định dạng email chưa đúng",
       "emailExist": "Email đã tồn tại",
+      "idExist": "Số giấy tờ này đã được đăng ký",
       "atLeastOne": "Đăng kí ít nhất một dịch vụ",
       "minlength": "Chưa đạt số lượng kí tự tối thiểu",
-      "maxlength": "Vượt quá số lượng kí tự tối đa"
+      "maxlength": "Vượt quá số lượng kí tự tối đa",
+      "owlDateTimeParse": "Trường thông tin cần thiết",
+      "identityLength": "Độ dài 9 hoặc 12 kí tự"
     },
     "apiErrors": {
       "bankId": "Chi nhánh ngân hàng không trùng khớp",
       "bankAccountNumber": "Số lượng kí tự tài khoản chưa chính xác",
-      "default": "Có lỗi trong quá trình lưu dữ liệu."
+      "default": "Có lỗi trong quá trình lưu dữ liệu.",
+      "INVALID_IDENTITY_CARD": "Thẻ không nhận dạng được, xin vui lòng thử lại.",
+      "EXIST_IDENTITY_ID": "Giấy tờ đã đăng ký.",
+      "HEADPOSE-WRONGSEQUENCE": "Sai thứ tự hướng gương mặt"
     }
   }
 }
