@@ -138,7 +138,8 @@
       "minlength": "Chưa đạt số lượng kí tự tối thiểu",
       "maxlength": "Vượt quá số lượng kí tự tối đa",
       "owlDateTimeParse": "Trường thông tin cần thiết",
-      "identityLength": "Độ dài 9 hoặc 12 kí tự"
+      "identityLength": "Độ dài 9 hoặc 12 kí tự",
+      "vietnamMobilePhoneInvalid": "Vui lòng nhập đúng số điện thoại di động"
     },
     "apiErrors": {
       "bankId": "Chi nhánh ngân hàng không trùng khớp",
